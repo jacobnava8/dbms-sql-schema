@@ -2,36 +2,32 @@
 
 # 🗄️ Database Management System (SQL Schema)
 
-## 📌 What is this?
-A normalized **relational database schema** for a simple commerce system covering:
-- **inventory items**
-- **suppliers**
-- **customers**
-- **orders** and **order_items**
-
-The design aims for **data integrity**, **low redundancy**, and **efficient queries** via proper keys, constraints, and indexing.
-
----
-
-## 🧩 Features
-- 3NF-ish normalized tables with **PRIMARY/FOREIGN KEY** constraints
-- Basic **referential integrity** (cascades where appropriate)
-- Sample **indexes** for common lookups
-- Example **CRUD queries** for each entity
+## 📌 Overview
+This project demonstrates the design of a normalized **relational database schema** for managing inventory, suppliers, orders, and customers.  
+The schema is designed for **data integrity, low redundancy, and efficient queries**. It includes SQL scripts for table creation, constraints, and example queries.
 
 ---
 
 ## 📂 Project Structure
-```
 📂 dbms-sql-schema
- ├── src/ (code)
- ├── docs/ (documentation)
- └── README.md
+├── schema.sql # Core database schema (tables, keys, constraints)
+├── seed.sql # Sample data for testing (optional)
+├── queries.sql # Example queries for analysis and reporting
+└── README.md
+
 ```
+
+### 🚀 How to Use
+1. Create a new database in **MySQL, PostgreSQL, or SQLite**.  
+2. Run `schema.sql` to build the database structure.  
+3. (Optional) Run `seed.sql` to insert sample data.  
+4. Test functionality with queries from `queries.sql`.  
+
+---
 
 ## 🛠️ Tech Stack
-- Add here
+- SQL (DDL + DML)
+- Relational Database Design
+- ER Modeling
 
-## 📊 Results
-- Add key results here
 
